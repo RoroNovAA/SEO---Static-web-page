@@ -16,7 +16,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 15px 12px 18px 15px;
-    background-color: red;
 }
 
 .img-ul {
@@ -37,7 +36,14 @@ nav {
     font-weight: 600;
     font-size: 15px;
     line-height: 30px;
+}
+
+.ul-list li {
     cursor: pointer;
+}
+
+.ul-list li:hover {
+    color: #5955b3;
 }
 
 .small-button {
@@ -47,6 +53,7 @@ nav {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
 }
 
 main {
@@ -65,11 +72,10 @@ h1 {
     color: rgb(82, 16, 82);
     font-size: 3em;
     width: 280px;
-    background-color: yellow;
-    margin: 0 12px 20px 14px;
+    margin: 55px 12px 20px 14px;
 }
 
-span {
+h1 span {
     color: #8f27b8;
 }
 
@@ -83,13 +89,14 @@ p {
     color: #fff;
     padding: 3px 2px;
     border: none;
-    width: 100px;
-    height: 60px;
+    width: 140px;
+    height: 40px;
     border-radius: 12px;
+    margin-left: 20px;
 }
 
 .main-pic {
     width: 455px;
-    height: 380 px;
+    height: 420px;
     margin: 20px 20px 0 20px;
 }
